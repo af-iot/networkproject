@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sensorservice;
+package WebService;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlElement;
@@ -41,6 +41,7 @@ public class Sensor implements Serializable {
     /**
      * @param temp the temp to set
      */
+    @XmlElement
     public void setData(double data) {
         this.data = data;
     }
@@ -55,6 +56,7 @@ public class Sensor implements Serializable {
     /**
      * @param type the type to set
      */
+    @XmlElement
     public void setType(String type) {
         this.type = type;
     }
@@ -69,6 +71,7 @@ public class Sensor implements Serializable {
     /**
      * @param timeStamp the timeStamp to set
      */
+    @XmlElement
     public void setTimeStamp(String timeStamp) {
         this.timeStamp = timeStamp;
     }
@@ -83,6 +86,7 @@ public class Sensor implements Serializable {
     /**
      * @param id the id to set
      */
+    @XmlElement
     public void setId(String id) {
         this.id = id;
     }
