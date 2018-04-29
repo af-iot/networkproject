@@ -1,12 +1,3 @@
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\FileH.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\GrowHouseConnectionDB.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\MySQLClient.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\WebService.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\GrowHouse.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\DateHandler.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\SensorDataJason.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\Sensor.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\GrowHouseDao.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\WebService\SensorService.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\GrowHouseService.java
-C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\GrowHouseService\Response.java
+C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\Websocket\SensorWedSocketServer.java
+C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\Model\Sensor.java
+C:\Users\mejla\Desktop\PoppeSynk\GIT\networkproject\WebService\com.mycompany_webservice_ChristopherBryant_war_1.0-SNAPSHOT\src\main\java\Websocket\SensorHandler.java

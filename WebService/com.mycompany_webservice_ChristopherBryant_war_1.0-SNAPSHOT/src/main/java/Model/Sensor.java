@@ -3,92 +3,56 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package WebService;
+package Model;
 
-import java.io.Serializable;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import com.google.gson.Gson;
-/**
- *
- * @author Isa
- */
-@XmlRootElement(name = "sensor")
+public class Sensor {
 
-//klass för ett simpelt sensor-objekt
-public class Sensor implements Serializable {
-    
-    private static final long serialVersionUID = 1L;
-    private double data; //tempraturdata
-    private String type; //typ av sensor
-    private String timeStamp; //tidsstämpel
-    private String id; //unikt id
-    
-    Sensor(double argData, String argType, String argTimeStamp, String argId){
-        data = argData; 
-        type = argType; 
-        timeStamp = argTimeStamp; 
-        id = argId; 
+    private int id;
+    private String name;
+    private String status;
+    private String type;
+    private String description;
+
+    public Sensor() {
     }
     
-    /**
-     * @return the data
-     */
-    public double getData() {
-        return data;
+    public int getId() {
+        return id;
+    }
+    
+    public String getName() {
+        return name;
     }
 
-    /**
-     * @param temp the temp to set
-     */
-    @XmlElement
-    public void setData(double data) {
-        this.data = data;
+    public String getStatus() {
+        return status;
     }
 
-    /**
-     * @return the type
-     */
     public String getType() {
         return type;
     }
-
-    /**
-     * @param type the type to set
-     */
-    @XmlElement
-    public void setType(String type) {
-        this.type = type;
+    
+    public String getDescription() {
+        return description;
     }
 
-    /**
-     * @return the timeStamp
-     */
-    public String getTimeStamp() {
-        return timeStamp;
-    }
-
-    /**
-     * @param timeStamp the timeStamp to set
-     */
-    @XmlElement
-    public void setTimeStamp(String timeStamp) {
-        this.timeStamp = timeStamp;
-    }
-
-    /**
-     * @return the id
-     */
-    public String getId() {
-        return id;
-    }
-
-    /**
-     * @param id the id to set
-     */
-    @XmlElement
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
     
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+    
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
