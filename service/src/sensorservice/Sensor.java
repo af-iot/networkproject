@@ -8,6 +8,7 @@ package sensorservice;
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import com.google.gson.Gson;
 /**
  *
  * @author Isa
@@ -29,7 +30,7 @@ public class Sensor implements Serializable {
         timeStamp = argTimeStamp; 
         id = argId; 
     }
-
+    
     /**
      * @return the data
      */
